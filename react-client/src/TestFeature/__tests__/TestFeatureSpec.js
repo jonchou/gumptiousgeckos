@@ -12,7 +12,7 @@ describe('test actions', () => {
     };
     expect(actions.testFunction()).toEqual(expectedAction);
   });
-});
+}); 
 
 describe('test reducer', () => {
   it('should return the initial state', () => {
